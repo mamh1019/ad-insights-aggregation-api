@@ -1,0 +1,21 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+    },
+    "files.exclude": {
+        "**/__pycache__": true
+    },
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/modules",
+        "${workspaceFolder}/tasks"
+    ],
+    "cursorpyright.analysis.extraPaths": [
+        "${workspaceFolder}/modules",
+        "${workspaceFolder}/tasks"
+    ],
+    "python.envFile": "${workspaceFolder}/.env",
+    "templateGenerator.fields.author" : "mamh1019",
+    "templateGenerator.fields.email" : "mamh1019@gmail.com",
+    "templateGenerator.fields.link": "",
+}
